@@ -1,0 +1,44 @@
+body {
+    background-color: #343a40;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-control {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.shoppingListContainer {
+    margin: 0 auto;  
+    max-width: 120px;
+}
+
+.productName {
+    display: inline;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;  /* you can't select the product anymore by constantly clicking it */
+}
+
+.purchased {
+    text-decoration: line-through;
+}
+
+.fa-trash-can {
+    color: white;
+    font-size: 20px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.productContainer {
+    margin-bottom: 30px;
+}
